@@ -6,7 +6,7 @@
 ### Final Product: 
 ![image](https://user-images.githubusercontent.com/72810148/146699212-ab73556d-a11f-46b0-8d99-5cfdc34d6d94.png)
 
-**HOW TO RUN** 
+### How to Run:
 Clone this repository and run all cells in the `main.ipynb` file under the `main` branch.
 
 ### Tools used:
