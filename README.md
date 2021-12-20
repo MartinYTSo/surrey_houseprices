@@ -61,7 +61,9 @@ Further detail on the GUI development can be found in the `GUI.ipynb` file under
 
 
 
-# Skills Acquired
+### New Skills Acquired
 - Cleaning Raw data from scraped website
 - Formatting strings to numbers 
 - Setting custom tick labels
+- Learning how to save machine learning models via utilizing `pickle` module
+- Developing GUI app 
