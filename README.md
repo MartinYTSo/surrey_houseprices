@@ -1,1 +1,1 @@
-# Predicting house prices in Surrey British Columbia with a simple calculator 
+# Predicting house prices in Surrey British Columbia, Canada
