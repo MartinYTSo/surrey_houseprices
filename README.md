@@ -17,10 +17,17 @@ The lower mainland of British Columbia, Canada has one of the most expensive rea
 
 ### Methods:
 
-Data was scraped by using a Chrome webscraper found [here](https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah). I particularly was intereseted in how square footage, number of beds, and baths affect the price of a piece of real estate therefore, I scraped those particulars. Unfortunately, I had some troubles getting large amounts of data so my dataset was only constrained to about 114 entries. Upon scraping and saving it to an excel file, I loaded it into Jupyter. The first 5 rows are shown here
+### Cleaning:
+Data was scraped by using a Chrome webscraper found [here](https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah). I particularly was intereseted in how square footage, number of beds, and baths affect the price of a piece of real estate therefore, I scraped those particulars. Unfortunately, I had some troubles getting large amounts of data so my dataset was only constrained to about 114 entries. Upon scraping and saving it to an excel file, I loaded it into Jupyter. I had to format the strings of the `list-card-price` column to a format where it is convertible to an integer in order to build a machine learning model and made a new `price` column. Null values were dropped. The first 5 rows are shown here after.
 
 ![image](https://user-images.githubusercontent.com/72810148/146697633-d231cce6-ff32-4807-8d2a-0cfe99e5182e.png)
 
+Upon cleaning and formatting the required values to an integer format, the finalized dataset is shown here
+![image](https://user-images.githubusercontent.com/72810148/146697866-0044867a-ac11-4490-9977-d0e582e2f52e.png)
+
+where `price` is the total price of the property, `sqft` is the number of square footage in that particular property, `bds` is the number of beds, and `ba` as the number of baths in the property. Further detail on the dataset cleaning process can be found under the `clean` branch.
+
+### Exploratory Visualization
 
 # Skills Acquired
 - Cleaning Raw data from scraped website
