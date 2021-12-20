@@ -56,12 +56,12 @@ Further detail on the analysis process can be found by viewing the `analysis.ipy
 ### GUI App
 For the last step in my pipeline, I constructed a simple GUI app with the `tkinter` library. I imported my regression model via utilizing the `pickle` library. The final product is meant to act as a "calculator" of the selections that were chosen by the user.
 
-Further detail on the GUI development can be found in the `GUI.ipynb` file under the branch `model_gui`
-
-
+Further detail on the GUI development can be found in the `GUI.ipynb` file under the branch `model_gui`.
 
 
 ### New Skills Acquired
+There are a few new skills that I learned that I would like to share with you. These skills are:
+
 - Cleaning Raw data from scraped website
 - Formatting strings to numbers 
 - Setting custom tick labels
